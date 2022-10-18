@@ -12,7 +12,6 @@ public class Thread {
         thread1.start();
         thread1.join();
 
-
         java.lang.Thread thread2 = new java.lang.Thread(new Runnable() {
             @Override
             public void run() {
